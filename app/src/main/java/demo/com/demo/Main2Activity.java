@@ -18,7 +18,7 @@ public class Main2Activity extends AppCompatActivity {
         ArrayList<String> arrayList=new ArrayList();
         for (int i = 0; i < 100; i++) {
             arrayList.add("abc");
-            ;
+
         }
 
         ArrayAdapter arrayAdapter=new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList);
