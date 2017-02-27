@@ -19,6 +19,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         System.out.println("pratik");
         setContentView(R.layout.lay_coor);
+        System.out.println("ghcghfc");
         lv= (ListView) findViewById(R.id.lv);
         ArrayList<String> arrayList=new ArrayList();
         for (int i = 0; i < 100; i++) {
