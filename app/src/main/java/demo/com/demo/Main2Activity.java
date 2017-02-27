@@ -14,6 +14,7 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.lay_coor);
+        System.out.println("ghcghfc");
         lv= (ListView) findViewById(R.id.lv);
         ArrayList<String> arrayList=new ArrayList();
         for (int i = 0; i < 100; i++) {
