@@ -18,12 +18,11 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.lay_coor);
-        System.out.println("ghcghfc");
+        System.out.println("ghcghfcv");
         lv= (ListView) findViewById(R.id.lv);
         ArrayList<String> arrayList=new ArrayList();
         for (int i = 0; i < 100; i++) {
             arrayList.add("abc");
-
         }
 
         ArrayAdapter arrayAdapter=new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList);
