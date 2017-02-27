@@ -17,7 +17,6 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        System.out.println("pratik");
         setContentView(R.layout.lay_coor);
         System.out.println("ghcghf");
         lv= (ListView) findViewById(R.id.lv);
