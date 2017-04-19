@@ -1,6 +1,7 @@
 package com.si.notifications;
 
 import android.content.Context;
+import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
@@ -57,6 +58,12 @@ public class SiNotification {
 
 
     private void subscribeNotification(@NonNull String url, HashMap<String, String> hMap) {
+        new AsyncTask<String, Void, String>() {
+            @Override
+            protected String doInBackground(String... params) {
+                return null;
+            }
+        }.execute();
 
 
     }
