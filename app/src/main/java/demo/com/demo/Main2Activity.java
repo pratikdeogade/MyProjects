@@ -11,7 +11,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class Main2Activity extends AppCompatActivity {
+public class Main2Activity extends AppCompatActivity  {
     ListView lv;
 
     @Override
@@ -28,6 +28,7 @@ public class Main2Activity extends AppCompatActivity {
         ArrayAdapter arrayAdapter=new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList);
         lv.setAdapter(arrayAdapter);
         setListViewHeightBasedOnChildren(lv);
+
 
     }
 
@@ -59,5 +60,11 @@ public class Main2Activity extends AppCompatActivity {
             }
         });
     }
+
+
+
+
+
+
 
 }
